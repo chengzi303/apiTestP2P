@@ -36,7 +36,7 @@ class loginAPI():
         # 返回响应
         return response
 
-    def login(self, session, keywords="15688886611", password="a123456"):
+    def login(self, session, keywords="15688886631", password="a123456"):
         # 准备参数
         data={
             "keywords": keywords,

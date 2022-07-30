@@ -8,7 +8,7 @@ from utils import assert_utils, third_request_api
 
 
 class trust(unittest.TestCase):
-    phone1 = "15688886618"
+    phone1 = "15688886631"
     def setUp(self) -> None:
         self.login_api=loginAPI()
         self.trust_api=trustAPI()

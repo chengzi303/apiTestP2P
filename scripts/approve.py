@@ -11,8 +11,8 @@ from utils import assert_utils
 class approveTest(unittest.TestCase):
     realname = "卫寒凝"
     card_id = "429006198902135782"
-    phone1 = "15688886611"
-    phone2 = "15688886613"
+    phone1 = "15688886631"
+    phone2 = "15688886632"
     def setUp(self) -> None:
         self.login_api=loginAPI()
         self.approve_api=approveAPI()

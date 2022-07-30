@@ -18,11 +18,11 @@ file_name=app.BASE_DIR + "/data/all.json"
 
 
 class loginTest_para(unittest.TestCase):
-    phone1 = "15688886618"
-    phone2 = "15688886613"
+    phone1 = "15688886631"
+    phone2 = "15688886632"
     # phone3 = "15688886614"
     # phone4 = "15688886615"
-    phone5 = "15688886616"
+    phone5 = "15688886635"
     imgVerifyCode1 = "8888"
     password1="a123456"
 

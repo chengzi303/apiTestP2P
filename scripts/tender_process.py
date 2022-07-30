@@ -13,7 +13,7 @@ from utils import assert_utils, third_request_api, DButils
 
 
 class tender_process(unittest.TestCase):
-    phone6 = "15688886619"
+    phone6 = "15688886636"
     imgVerifyCode1 = "8888"
     password1 = "a123456"
     realname = "卫寒凝"
