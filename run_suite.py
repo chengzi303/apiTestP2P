@@ -18,7 +18,8 @@ suite.addTest(unittest.makeSuite(trust))
 suite.addTest(unittest.makeSuite(tender))
 suite.addTest(unittest.makeSuite(tender_process))
 
-report_file=BASE_DIR + "/report/p2p-{}.html".format(time.strftime("%Y%m%d%H%M%S"))
+# report_file=BASE_DIR + "/report/p2p-{}.html".format(time.strftime("%Y%m%d%H%M%S"))
+report_file=BASE_DIR + "/report/p2p.html"
 with open(report_file,"wb") as f:
     runner=HTMLTestRunner(f,title="P2P金融项目接口测试报告",description="test")
     runner.run(suite)
