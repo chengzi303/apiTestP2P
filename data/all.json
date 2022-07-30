@@ -25,7 +25,7 @@
     {
       "desc": "正确填写仅必填参数，注册成功",
       "type": "float",
-      "phone":"15688886631",
+      "phone":"15688886637",
       "password":"a123456",
       "verifycode":"8888",
       "phone_code":"666666",
@@ -38,7 +38,7 @@
     {
       "desc": "正确填写所有参数，注册成功",
       "type": "float",
-      "phone":"15688886632",
+      "phone":"15688886638",
       "password":"a123456",
       "verifycode":"8888",
       "phone_code":"666666",
@@ -51,7 +51,7 @@
     {
       "desc": "图片验证码错误，注册失败",
       "type": "float",
-      "phone":"15688886633",
+      "phone":"15688886639",
       "password":"a123456",
       "verifycode":"1111",
       "phone_code":"666666",
@@ -64,7 +64,7 @@
     {
       "desc": "短信验证码错误，注册失败",
       "type": "float",
-      "phone":"15688886633",
+      "phone":"15688886639",
       "password":"a123456",
       "verifycode":"8888",
       "phone_code":"111111",
@@ -77,7 +77,7 @@
     {
       "desc": "手机已存在，注册失败",
       "type": "float",
-      "phone":"15688886631",
+      "phone":"15688886637",
       "password":"a123456",
       "verifycode":"8888",
       "phone_code":"666666",
@@ -90,7 +90,7 @@
     {
       "desc": "密码为空，注册失败(bug)",
       "type": "float",
-      "phone":"15688886633",
+      "phone":"15688886639",
       "password":"",
       "verifycode":"8888",
       "phone_code":"666666",
@@ -103,7 +103,7 @@
     {
       "desc": "未勾选请同意我们的条款，注册失败(bug)",
       "type": "float",
-      "phone":"15688886634",
+      "phone":"15688886640",
       "password":"a123456",
       "verifycode":"8888",
       "phone_code":"666666",
