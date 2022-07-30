@@ -1,0 +1,5 @@
+2022-07-30 15:57:48,627 INFO [root] [__init__.py(<module>:6)] - info
+2022-07-30 15:57:48,628 ERROR [root] [__init__.py(<module>:7)] - error
+2022-07-30 15:57:48,629 CRITICAL [root] [__init__.py(<module>:8)] - critical
+2022-07-30 15:57:49,564 INFO [root] [tender_process.py(test01_tender_process:55)] - get sms code response={'status': 200, 'description': '短信发送成功'}
+2022-07-30 15:57:49,609 INFO [root] [tender_process.py(test01_tender_process:62)] - register response={'status': 100, 'description': '手机已存在!'}

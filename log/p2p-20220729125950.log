@@ -1,0 +1,4 @@
+2022-07-29 12:59:50,217 INFO [root] [__init__.py(<module>:6)] - info
+2022-07-29 12:59:50,218 ERROR [root] [__init__.py(<module>:7)] - error
+2022-07-29 12:59:50,219 CRITICAL [root] [__init__.py(<module>:8)] - critical
+2022-07-29 12:59:51,061 INFO [root] [trust.py(test04_recharge_verifyCode_random_int:76)] - login response={'status': 200, 'description': '登录成功'}

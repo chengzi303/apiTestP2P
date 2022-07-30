@@ -1,0 +1,8 @@
+2022-07-29 20:01:02,858 INFO [root] [__init__.py(<module>:6)] - info
+2022-07-29 20:01:02,859 ERROR [root] [__init__.py(<module>:7)] - error
+2022-07-29 20:01:02,860 CRITICAL [root] [__init__.py(<module>:8)] - critical
+2022-07-29 20:01:09,135 INFO [root] [para_login.py(test20_login_password_error:334)] - login response={'status': 100, 'data': {'login_error': 2}, 'description': '密码错误1次,达到3次将锁定账户'}
+2022-07-29 20:01:09,195 INFO [root] [para_login.py(test20_login_password_error:341)] - login response={'status': 100, 'data': {'login_error': 3}, 'description': '密码错误2次,达到3次将锁定账户'}
+2022-07-29 20:01:09,261 INFO [root] [para_login.py(test20_login_password_error:348)] - login response={'status': 100, 'description': '由于连续输入错误密码达到上限，账号已被锁定，请于1.0分钟后重新登录'}
+2022-07-29 20:01:09,334 INFO [root] [para_login.py(test20_login_password_error:355)] - login response={'status': 100, 'description': '由于连续输入错误密码达到上限，账号已被锁定，请于1.0分钟后重新登录'}
+2022-07-29 20:02:09,417 INFO [root] [para_login.py(test20_login_password_error:363)] - login response={'status': 200, 'description': '登录成功'}

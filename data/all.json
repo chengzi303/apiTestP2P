@@ -1,0 +1,117 @@
+{
+  "test_imgVerify": [
+    {
+      "desc": "随机小数，获取图片验证码成功",
+      "type": "float",
+      "status_code": 200
+    },
+    {
+      "desc": "随机整数，获取图片验证码成功",
+      "type": "int",
+      "status_code": 200
+    },
+    {
+      "desc": "参数为空，获取图片验证码失败",
+      "type": "null",
+      "status_code": 404
+    },
+    {
+      "desc": "参数为字母，获取图片验证码失败",
+      "type": "string",
+      "status_code": 400
+    }
+  ],
+  "test_register": [
+    {
+      "desc": "正确填写仅必填参数，注册成功",
+      "type": "float",
+      "phone":"15688886627",
+      "password":"a123456",
+      "verifycode":"8888",
+      "phone_code":"666666",
+      "dy_server":"on",
+      "invite_phone":"",
+      "status_code": 200,
+      "status": 200,
+      "description": "注册成功"
+    },
+    {
+      "desc": "正确填写所有参数，注册成功",
+      "type": "float",
+      "phone":"15688886628",
+      "password":"a123456",
+      "verifycode":"8888",
+      "phone_code":"666666",
+      "dy_server":"on",
+      "invite_phone":"13012345678",
+      "status_code": 200,
+      "status": 200,
+      "description": "注册成功"
+    },
+    {
+      "desc": "图片验证码错误，注册失败",
+      "type": "float",
+      "phone":"15688886629",
+      "password":"a123456",
+      "verifycode":"1111",
+      "phone_code":"666666",
+      "dy_server":"on",
+      "invite_phone":"",
+      "status_code": 200,
+      "status": 100,
+      "description": "验证码错误!"
+    },
+    {
+      "desc": "短信验证码错误，注册失败",
+      "type": "float",
+      "phone":"15688886629",
+      "password":"a123456",
+      "verifycode":"8888",
+      "phone_code":"111111",
+      "dy_server":"on",
+      "invite_phone":"",
+      "status_code": 200,
+      "status": 100,
+      "description": "验证码错误"
+    },
+    {
+      "desc": "手机已存在，注册失败",
+      "type": "float",
+      "phone":"15688886627",
+      "password":"a123456",
+      "verifycode":"8888",
+      "phone_code":"666666",
+      "dy_server":"on",
+      "invite_phone":"",
+      "status_code": 200,
+      "status": 100,
+      "description": "手机已存在!"
+    },
+    {
+      "desc": "密码为空，注册失败(bug)",
+      "type": "float",
+      "phone":"15688886629",
+      "password":"",
+      "verifycode":"8888",
+      "phone_code":"666666",
+      "dy_server":"on",
+      "invite_phone":"",
+      "status_code": 200,
+      "status": 100,
+      "description": "密码不能为空"
+    },
+    {
+      "desc": "未勾选请同意我们的条款，注册失败(bug)",
+      "type": "float",
+      "phone":"15688886630",
+      "password":"a123456",
+      "verifycode":"8888",
+      "phone_code":"666666",
+      "dy_server":"off",
+      "invite_phone":"",
+      "status_code": 200,
+      "status": 100,
+      "description": "请同意我们的条款"
+    }
+  ]
+}

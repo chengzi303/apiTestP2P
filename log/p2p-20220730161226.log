@@ -1,0 +1,11 @@
+2022-07-30 16:12:26,327 INFO [root] [__init__.py(<module>:6)] - info
+2022-07-30 16:12:26,328 ERROR [root] [__init__.py(<module>:7)] - error
+2022-07-30 16:12:26,329 CRITICAL [root] [__init__.py(<module>:8)] - critical
+2022-07-30 16:12:27,267 INFO [root] [approve.py(test01_approve_success:29)] - get login code response={'status': 200, 'description': '登录成功'}
+2022-07-30 16:12:27,333 INFO [root] [approve.py(test01_approve_success:36)] - get approve response={'status': 200, 'data': {'card_id': '429****782', 'realname': '卫**'}, 'description': '提交成功!'}
+2022-07-30 16:12:27,475 INFO [root] [approve.py(test02_approve_realName_is_null:46)] - get login code response={'status': 200, 'description': '登录成功'}
+2022-07-30 16:12:27,548 INFO [root] [approve.py(test02_approve_realName_is_null:53)] - get approve response={'description': 'String index out of range: 1', 'status': 100}
+2022-07-30 16:12:28,340 INFO [root] [approve.py(test03_approve_card_id_is_null:62)] - get login code response={'status': 200, 'description': '登录成功'}
+2022-07-30 16:12:28,409 INFO [root] [approve.py(test03_approve_card_id_is_null:69)] - get approve response={'description': 'String index out of range: 1', 'status': 100}
+2022-07-30 16:12:28,871 INFO [root] [approve.py(test04_getApprove_success:78)] - get login code response={'status': 200, 'description': '登录成功'}
+2022-07-30 16:12:28,930 INFO [root] [approve.py(test04_getApprove_success:84)] - get approve response={'is_email_open': '-1', 'lastlogin_time': '1659168682', 'group_status': '', 'is_auth_user': '-1', 'is_realname_open': '2', 'is_corp': '-1', 'business_license': '', 'realname_remark': 'Trust register notify', 'card_id': '429****782', 'realname': '卫**', 'isCert': '2', 'realname_card': '1', 'pay_pwd': '', 'phone': '156****6611', 'realname_status': '1', 'trustType': 'chinapnr', 'pwd': '1', 'email': '', 'is_trust': '1'}

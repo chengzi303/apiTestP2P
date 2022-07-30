@@ -1,0 +1,22 @@
+{
+  "getImgCode_random_float": {
+    "desc": "随机小数，获取图片验证码成功",
+    "type": "float",
+    "status_code": 200
+  },
+  "getImgCode_random_int": {
+    "desc": "随机整数，获取图片验证码成功",
+    "type": "int",
+    "status_code": 200
+  },
+  "getImgCode_no_para": {
+    "desc": "参数为空，获取图片验证码失败",
+    "type": "null",
+    "status_code": 404
+  },
+  "getImgCode_string": {
+    "desc": "参数为字母，获取图片验证码失败",
+    "type": "string",
+    "status_code": 400
+  }
+}

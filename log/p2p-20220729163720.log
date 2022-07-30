@@ -1,0 +1,4 @@
+2022-07-29 16:37:20,176 INFO [root] [__init__.py(<module>:6)] - info
+2022-07-29 16:37:20,177 ERROR [root] [__init__.py(<module>:7)] - error
+2022-07-29 16:37:20,178 CRITICAL [root] [__init__.py(<module>:8)] - critical
+2022-07-29 16:37:21,053 INFO [root] [tender.py(test02_tender_amount_is_null:53)] - tender response={'status': 100, 'description': '不是正确的金额'}

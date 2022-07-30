@@ -1,0 +1,3 @@
+2022-07-29 19:46:51,427 INFO [root] [__init__.py(<module>:6)] - info
+2022-07-29 19:46:51,429 ERROR [root] [__init__.py(<module>:7)] - error
+2022-07-29 19:46:51,430 CRITICAL [root] [__init__.py(<module>:8)] - critical

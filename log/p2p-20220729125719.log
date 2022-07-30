@@ -1,0 +1,4 @@
+2022-07-29 12:57:19,268 INFO [root] [__init__.py(<module>:6)] - info
+2022-07-29 12:57:19,270 ERROR [root] [__init__.py(<module>:7)] - error
+2022-07-29 12:57:19,271 CRITICAL [root] [__init__.py(<module>:8)] - critical
+2022-07-29 12:57:20,298 INFO [root] [trust.py(test02_risk:46)] - login response={'status': 200, 'description': '登录成功'}

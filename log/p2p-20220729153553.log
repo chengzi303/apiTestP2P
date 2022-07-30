@@ -1,0 +1,5 @@
+2022-07-29 15:35:53,180 INFO [root] [__init__.py(<module>:6)] - info
+2022-07-29 15:35:53,180 ERROR [root] [__init__.py(<module>:7)] - error
+2022-07-29 15:35:53,180 CRITICAL [root] [__init__.py(<module>:8)] - critical
+2022-07-29 15:35:54,009 INFO [root] [trust.py(test06_recharge_verifyCode_error:123)] - login response={'status': 200, 'description': '登录成功'}
+2022-07-29 15:35:54,102 INFO [root] [trust.py(test06_recharge_verifyCode_error:138)] - recharge response={'status': 100, 'description': '验证码错误'}

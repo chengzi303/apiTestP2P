@@ -1,0 +1,5 @@
+2022-07-29 09:16:20,678 INFO [root] [__init__.py(<module>:6)] - info
+2022-07-29 09:16:20,679 ERROR [root] [__init__.py(<module>:7)] - error
+2022-07-29 09:16:20,679 CRITICAL [root] [__init__.py(<module>:8)] - critical
+2022-07-29 09:16:20,880 INFO [root] [approve.py(test04_getApprove_success:78)] - get login code response={'status': 200, 'description': '登录成功'}
+2022-07-29 09:16:20,943 INFO [root] [approve.py(test04_getApprove_success:84)] - get approve response={'is_email_open': '-1', 'lastlogin_time': '1659057281', 'group_status': '', 'is_auth_user': '-1', 'is_realname_open': '2', 'is_corp': '-1', 'business_license': '', 'card_id': '429****782', 'realname': '卫**', 'isCert': '2', 'realname_card': '1', 'pay_pwd': '', 'phone': '156****6611', 'realname_status': '-2', 'trustType': 'chinapnr', 'pwd': '1', 'email': '', 'is_trust': '-1'}

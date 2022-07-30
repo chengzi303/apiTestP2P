@@ -1,0 +1,5 @@
+2022-07-28 19:43:23,605 INFO [root] [__init__.py(<module>:6)] - info
+2022-07-28 19:43:23,606 ERROR [root] [__init__.py(<module>:7)] - error
+2022-07-28 19:43:23,607 CRITICAL [root] [__init__.py(<module>:8)] - critical
+2022-07-28 19:43:23,806 INFO [root] [approve.py(test03_approve_card_id_is_null:61)] - get login code response={'status': 200, 'description': '登录成功'}
+2022-07-28 19:43:23,869 INFO [root] [approve.py(test03_approve_card_id_is_null:68)] - get approve response={'description': 'String index out of range: 1', 'status': 100}

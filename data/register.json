@@ -1,0 +1,93 @@
+{
+  "register_success": {
+    "desc": "正确填写仅必填参数，注册成功",
+    "type": "float",
+    "phone":"15688886623",
+    "password":"a123456",
+    "verifycode":"8888",
+    "phone_code":"666666",
+    "dy_server":"on",
+    "invite_phone":"",
+    "status_code": 200,
+    "status": 200,
+    "description": "注册成功"
+  },
+  "register_success_all": {
+    "desc": "正确填写所有参数，注册成功",
+    "type": "float",
+    "phone":"15688886624",
+    "password":"a123456",
+    "verifycode":"8888",
+    "phone_code":"666666",
+    "dy_server":"on",
+    "invite_phone":"13012345678",
+    "status_code": 200,
+    "status": 200,
+    "description": "注册成功"
+  },
+  "register_imgCode_error": {
+    "desc": "图片验证码错误，注册失败",
+    "type": "float",
+    "phone":"15688886625",
+    "password":"a123456",
+    "verifycode":"1111",
+    "phone_code":"666666",
+    "dy_server":"on",
+    "invite_phone":"",
+    "status_code": 200,
+    "status": 100,
+    "description": "验证码错误!"
+  },
+  "register_Sms_error": {
+    "desc": "短信验证码错误，注册失败",
+    "type": "float",
+    "phone":"15688886625",
+    "password":"a123456",
+    "verifycode":"8888",
+    "phone_code":"111111",
+    "dy_server":"on",
+    "invite_phone":"",
+    "status_code": 200,
+    "status": 100,
+    "description": "验证码错误"
+  },
+  "register_phone_is_exist": {
+    "desc": "手机已存在，注册失败",
+    "type": "float",
+    "phone":"15688886623",
+    "password":"a123456",
+    "verifycode":"8888",
+    "phone_code":"666666",
+    "dy_server":"on",
+    "invite_phone":"",
+    "status_code": 200,
+    "status": 100,
+    "description": "手机已存在!"
+  },
+    "register_password_is_null": {
+    "desc": "密码为空，注册失败(bug)",
+    "type": "float",
+    "phone":"15688886625",
+    "password":"",
+    "verifycode":"8888",
+    "phone_code":"666666",
+    "dy_server":"on",
+    "invite_phone":"",
+    "status_code": 200,
+    "status": 100,
+    "description": "密码不能为空"
+  },
+  "register_disagree_protocol": {
+    "desc": "未勾选请同意我们的条款，注册失败(bug)",
+    "type": "float",
+    "phone":"15688886626",
+    "password":"a123456",
+    "verifycode":"8888",
+    "phone_code":"666666",
+    "dy_server":"off",
+    "invite_phone":"",
+    "status_code": 200,
+    "status": 100,
+    "description": "请同意我们的条款"
+  }
+}

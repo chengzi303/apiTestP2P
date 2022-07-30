@@ -1,0 +1,4 @@
+2022-07-29 16:50:16,414 INFO [root] [__init__.py(<module>:6)] - info
+2022-07-29 16:50:16,415 ERROR [root] [__init__.py(<module>:7)] - error
+2022-07-29 16:50:16,416 CRITICAL [root] [__init__.py(<module>:8)] - critical
+2022-07-29 16:50:17,295 INFO [root] [tender.py(test05_my_tender_list:98)] - my tender list response={'recover_amount_yes_total': 0, 'isStartTime': 'no', 'epage': 6, 'recover_amount_total': 0, 'recover_amount_wait_total': 0, 'page': 1, 'total_pages': 0, 'tender_amount_total': 0, 'items': [], 'total_items': 0, 'isCert': '2'}
